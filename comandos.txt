@@ -3,6 +3,12 @@ cd = acceder a un directorio
 cd ../ = devolverse un directorio
 cls = vaciar la consola
 git --version = version
+git status = para mirar que cosas faltan a agregar en el repositorio
+git add (nombre archivo) = añadir archivos al repositorio
+git add . = Añade todo al repositorio
+git commit = guardar una versión del proyecto
+-m = no abrir otra terminal con la información detallada del git commit
+gitk = sirve para abrir el git
 
 usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
